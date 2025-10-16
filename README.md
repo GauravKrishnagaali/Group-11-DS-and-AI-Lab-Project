@@ -28,10 +28,10 @@ This repository contains our Deep Learning/Generative AI project developed as pa
 
 ### Milestone 1: Problem Definition & Literature Review
 **Deadline**: October 3, 2025
-- [ ] Define project objectives
-- [ ] Review existing solutions, baselines, and benchmarks
-- [ ] Identify gaps and opportunities
-- [ ] **Deliverable**: Problem statement and literature review
+- [x] Define project objectives
+- [x] Review existing solutions, baselines, and benchmarks
+- [x] Identify gaps and opportunities
+- [x] **Deliverable**: Problem statement and literature review
 
 ### Milestone 2: Dataset Preparation
 **Deadline**: October 10, 2025
