@@ -7,68 +7,83 @@ This repository contains our Deep Learning/Generative AI project developed as pa
 ## 📋 Project Guidelines
 
 ### Group Formation
+
 - **Team Size**: 5 members
 - **Registration**: Group details submitted via Google Form
 - **Assignment**: Unregistered students will be randomly assigned to groups
 
 ### Problem Statement
+
 - **Focus Area**: Deep Learning or Generative AI
 - **Approval Required**: Problem statement must be approved by course team
 - **Deadline**: September 28, 2025
 
 ## 🎯 Project Evaluation (30 marks total)
 
-| Component | Marks | Description |
-|-----------|-------|-------------|
-| **Milestone Completion** | 10 | Based on successful completion of all six milestones |
-| **Novelty/Complexity** | 5 | Originality and technical expertise required |
-| **Final Presentation** | 15 | Clarity, technical understanding, and demonstration |
+| Component                | Marks | Description                                          |
+| ------------------------ | ----- | ---------------------------------------------------- |
+| **Milestone Completion** | 10    | Based on successful completion of all six milestones |
+| **Novelty/Complexity**   | 5     | Originality and technical expertise required         |
+| **Final Presentation**   | 15    | Clarity, technical understanding, and demonstration  |
 
 ## 📅 Project Milestones
 
 ### Milestone 1: Problem Definition & Literature Review
+
 **Deadline**: October 3, 2025
+
 - [x] Define project objectives
 - [x] Review existing solutions, baselines, and benchmarks
 - [x] Identify gaps and opportunities
 - [x] **Deliverable**: Problem statement and literature review
 
 ### Milestone 2: Dataset Preparation
+
 **Deadline**: October 10, 2025
-- [ ] Collect or identify suitable dataset
-- [ ] Prepare and preprocess data for training and validation
-- [ ] **Deliverable**: Cleaned and preprocessed dataset
+
+- [x] Collect or identify suitable dataset
+- [x] Prepare and preprocess data for training and validation
+- [x] **Deliverable**: Cleaned and preprocessed dataset
 
 ### Milestone 3: Model Architecture
+
 **Deadline**: October 17, 2025
+
 - [ ] Select or design appropriate model architecture(s)
 - [ ] Justify choice of architecture
 - [ ] **Deliverable**: Architecture design and justification
 
 ### Milestone 4: Model Training
+
 **Deadline**: October 31, 2025
+
 - [ ] Train initial models
 - [ ] Experiment with hyperparameters, optimization methods, and regularization techniques
 - [ ] **Deliverable**: Trained models and training logs
 
 ### Milestone 5: Model Evaluation & Analysis
+
 **Deadline**: November 7, 2025
+
 - [ ] Evaluate trained models using appropriate metrics
 - [ ] Provide error analysis
 - [ ] Discuss limitations and possible improvements
 - [ ] **Deliverable**: Evaluation results and analysis
 
 ### Milestone 6: Deployment & Documentation
+
 **Deadline**: November 14, 2025
+
 - [ ] Deploy the model (API, demo interface, or Hugging Face Spaces)
 - [ ] Prepare comprehensive documentation
 - [ ] Finalize project report
 - [ ] **Deliverable**: Deployed model and final documentation
 
 ## 🎤 Final Presentations
+
 - **Schedule**: Week 10 & Week 11 (November 23 onwards)
 - **Format**: Live demonstration, code walkthrough, and report presentation
-- **Requirements**: 
+- **Requirements**:
   - Live demonstration of the working model
   - Code walkthrough explaining implementation
   - Presentation of final report
@@ -101,12 +116,14 @@ DS_AI_Project/
 ## 🛠️ Technical Requirements
 
 ### Code Quality Standards
+
 - **Modularity**: Code should be well-organized and modular
 - **Readability**: Clear, documented, and maintainable code
 - **Reproducibility**: Results should be reproducible with provided scripts
 - **Version Control**: Proper Git practices with meaningful commit messages
 
 ### Repository Contents
+
 - Training scripts for model development
 - Inference notebooks for experimentation
 - Comprehensive documentation
@@ -116,13 +133,15 @@ DS_AI_Project/
 ## 📊 Progress Tracking
 
 ### Weekly Meetings
+
 - **Frequency**: Mandatory weekly meetings with TAs
 - **Purpose**: Progress tracking and milestone guidance
 - **Format**: Progress updates and feedback sessions
 
 ### Milestone Tracking
+
 - [ ] Milestone 1: Problem Definition & Literature Review
-- [ ] Milestone 2: Dataset Preparation  
+- [ ] Milestone 2: Dataset Preparation
 - [ ] Milestone 3: Model Architecture
 - [ ] Milestone 4: Model Training
 - [ ] Milestone 5: Model Evaluation & Analysis
@@ -131,12 +150,14 @@ DS_AI_Project/
 ## 🚀 Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd DS_AI_Project
    ```
 
 2. **Set up environment**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -155,7 +176,7 @@ DS_AI_Project/
 
 ## 👥 Team Members
 
-*[To be updated with actual team member names and roles]*
+_[To be updated with actual team member names and roles]_
 
 ## 📞 Contact
 
@@ -163,4 +184,4 @@ For questions or clarifications regarding the project, please contact the course
 
 ---
 
-**Note**: This project follows the academic guidelines provided by the Data Science and AI course. All milestones and deadlines are subject to course requirements and TA feedback. 
+**Note**: This project follows the academic guidelines provided by the Data Science and AI course. All milestones and deadlines are subject to course requirements and TA feedback.
