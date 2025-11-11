@@ -35,7 +35,7 @@ This repository contains our Deep Learning/Generative AI project developed as pa
 - [x] Define project objectives
 - [x] Review existing solutions, baselines, and benchmarks
 - [x] Identify gaps and opportunities
-- [x] **Deliverable**: Problem statement and literature review
+- [x] **Deliverable**: Problem statement and literature review ([Milestone-1/Milestone_1.pdf](Milestone-1/Milestone_1.pdf), [Milestone-1/Milestone_1_v2.pdf](Milestone-1/Milestone_1_v2.pdf))
 
 ### Milestone 2: Dataset Preparation
 
@@ -43,32 +43,33 @@ This repository contains our Deep Learning/Generative AI project developed as pa
 
 - [x] Collect or identify suitable dataset
 - [x] Prepare and preprocess data for training and validation
-- [x] **Deliverable**: Cleaned and preprocessed dataset
+- [x] **Deliverable**: Cleaned and preprocessed dataset ([Milestone-2/Milestone_2.pdf](Milestone-2/Milestone_2.pdf))
+- [x] Artifacts: Data prep notebooks and samples ([Milestone-2/CreatePatchWithLabel.ipynb](Milestone-2/CreatePatchWithLabel.ipynb), image samples in `Milestone-2/OrgMicrostrucData/` and `Milestone-2/PatchData_images/`)
 
 ### Milestone 3: Model Architecture
 
 **Deadline**: October 17, 2025
 
-- [ ] Select or design appropriate model architecture(s)
-- [ ] Justify choice of architecture
-- [ ] **Deliverable**: Architecture design and justification
+- [x] Select or design appropriate model architecture(s)
+- [x] Justify choice of architecture
+- [x] **Deliverable**: Architecture design and justification ([Milestone-3/Milestone-3.pdf](Milestone-3/Milestone-3.pdf))
 
 ### Milestone 4: Model Training
 
 **Deadline**: October 31, 2025
 
-- [ ] Train initial models
-- [ ] Experiment with hyperparameters, optimization methods, and regularization techniques
-- [ ] **Deliverable**: Trained models and training logs
+- [x] Train initial models
+- [x] Experiment with hyperparameters, optimization methods, and regularization techniques
+- [x] **Deliverable**: Trained models and training logs ([Milestone-4/Milestone-4.pdf](Milestone-4/Milestone-4.pdf); training notebooks in `Milestone-4/` and `Milestone-4_SG/`; TensorBoard logs in `Milestone-4_SG/logs/`)
 
 ### Milestone 5: Model Evaluation & Analysis
 
 **Deadline**: November 7, 2025
 
-- [ ] Evaluate trained models using appropriate metrics
-- [ ] Provide error analysis
-- [ ] Discuss limitations and possible improvements
-- [ ] **Deliverable**: Evaluation results and analysis
+- [x] Evaluate trained models using appropriate metrics
+- [x] Provide error analysis
+- [x] Discuss limitations and possible improvements
+- [x] **Deliverable**: Evaluation results and analysis ([Milestone-5_SG/Report_MS 5.pdf](Milestone-5_SG/Report_MS%205.pdf); evaluation notebook: [Milestone-5_SG/Evaluation_MS5.ipynb](Milestone-5_SG/Evaluation_MS5.ipynb))
 
 ### Milestone 6: Deployment & Documentation
 
@@ -93,24 +94,13 @@ This repository contains our Deep Learning/Generative AI project developed as pa
 ```
 DS_AI_Project/
 ├── README.md                 # This file
-├── Reports/                  # Milestone reports and documentation
-│   ├── Milestone_1.pdf      # Problem definition and literature review
-│   ├── Milestone_2.pdf      # Dataset preparation
-│   ├── Milestone_3.pdf      # Model architecture
-│   ├── Milestone_4.pdf      # Model training
-│   ├── Milestone_5.pdf      # Model evaluation
-│   └── Milestone_6.pdf      # Deployment and documentation
-├── src/                     # Source code
-│   ├── data/               # Data preprocessing scripts
-│   ├── models/             # Model definitions
-│   ├── training/           # Training scripts
-│   ├── evaluation/         # Evaluation scripts
-│   └── deployment/         # Deployment scripts
-├── notebooks/              # Jupyter notebooks for experimentation
-├── data/                   # Dataset (if not too large)
-├── models/                 # Saved model checkpoints
-├── results/                # Experimental results and visualizations
-└── docs/                   # Additional documentation
+├── Milestone-1/             # Problem definition & literature review PDFs
+├── Milestone-2/             # Data prep notebook and sample images
+├── Milestone-3/             # Model architecture report
+├── Milestone-4/             # Training datasets and notebooks
+├── Milestone-4_SG/          # Training experiments, logs, and report
+├── Milestone-5_SG/          # Evaluation notebook and report
+└── (additional code/artifacts as added per milestone)
 ```
 
 ## 🛠️ Technical Requirements
@@ -124,11 +114,10 @@ DS_AI_Project/
 
 ### Repository Contents
 
-- Training scripts for model development
-- Inference notebooks for experimentation
-- Comprehensive documentation
-- Deployment configuration
-- Requirements and dependencies
+- Training and evaluation notebooks under milestone folders
+- TensorBoard logs under `Milestone-4_SG/logs/`
+- Milestone reports in respective folders
+- Requirements and dependencies (to be added if code environment is shared)
 
 ## 📊 Progress Tracking
 
@@ -140,11 +129,11 @@ DS_AI_Project/
 
 ### Milestone Tracking
 
-- [ ] Milestone 1: Problem Definition & Literature Review
-- [ ] Milestone 2: Dataset Preparation
-- [ ] Milestone 3: Model Architecture
-- [ ] Milestone 4: Model Training
-- [ ] Milestone 5: Model Evaluation & Analysis
+- [x] Milestone 1: Problem Definition & Literature Review
+- [x] Milestone 2: Dataset Preparation
+- [x] Milestone 3: Model Architecture
+- [x] Milestone 4: Model Training
+- [x] Milestone 5: Model Evaluation & Analysis
 - [ ] Milestone 6: Deployment & Documentation
 
 ## 🚀 Getting Started
@@ -162,17 +151,25 @@ DS_AI_Project/
    pip install -r requirements.txt
    ```
 
-3. **Follow milestone progression**
-   - Start with Milestone 1: Problem Definition
-   - Progress through each milestone sequentially
-   - Maintain regular TA meetings for guidance
+3. **Open notebooks and reproduce results**
+   - Data prep: `Milestone-2/CreatePatchWithLabel.ipynb`
+   - Training: `Milestone-4/Microstructure_VGG19_Experiment.ipynb`, `Milestone-4/Train_VGG19_RestNet50_With_Hyperperameter.ipynb`, and `Milestone-4_SG/classification.ipynb`
+   - Evaluation: `Milestone-5_SG/Evaluation_MS5.ipynb`
+
+4. **(Optional) View training logs**
+   - Launch TensorBoard pointing to `Milestone-4_SG/logs/`
 
 ## 📝 Documentation
 
-- **Reports**: Located in `Reports/` directory
+- **Reports**:
+  - Milestone 1: [Milestone-1/Milestone_1.pdf](Milestone-1/Milestone_1.pdf), [Milestone-1/Milestone_1_v2.pdf](Milestone-1/Milestone_1_v2.pdf)
+  - Milestone 2: [Milestone-2/Milestone_2.pdf](Milestone-2/Milestone_2.pdf)
+  - Milestone 3: [Milestone-3/Milestone-3.pdf](Milestone-3/Milestone-3.pdf)
+  - Milestone 4: [Milestone-4_SG/Report_MS 4.pdf](Milestone-4_SG/Report_MS%204.pdf)
+  - Milestone 5: [Milestone-5_SG/Report_MS 5.pdf](Milestone-5_SG/Report_MS%205.pdf)
+- **Notebooks**: See milestone folders
 - **Code Documentation**: Inline comments and docstrings
-- **API Documentation**: For deployed models
-- **User Guide**: For demo interfaces
+- **Deployment Guide**: To be added in Milestone 6
 
 ## 👥 Team Members
 
