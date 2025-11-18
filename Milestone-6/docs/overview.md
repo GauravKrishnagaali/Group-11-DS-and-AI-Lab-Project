@@ -65,7 +65,6 @@ Milestone 6/
 │ ├── overview.md
 │ ├── technical_doc.md
 │ ├── user_guide.md
-│ ├── api_doc.md
 │ └── licenses.md
 │
 ├── requirements.txt
