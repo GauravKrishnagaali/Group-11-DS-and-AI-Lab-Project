@@ -2,21 +2,8 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 from keras.models import load_model
-from keras.layers import Flatten
 import tempfile
 import os
-
-# Custom Flatten layer
-class CustomFlatten(Flatten):
-    def call(self, inputs):
-        if isinstance(inputs, list):
-            inputs = inputs[0]
-        return super().call(inputs)
-    
-    def compute_output_spec(self, inputs):
-        if isinstance(inputs, list):
-            inputs = inputs[0]
-        return super().compute_output_spec(inputs)
 
 # Page configuration
 st.set_page_config(
@@ -78,7 +65,6 @@ with st.sidebar:
                     # Load the model
                     st.session_state.model = load_model(
                         tmp_path,
-                        custom_objects={'Flatten': CustomFlatten},
                         compile=False
                     )
                     st.session_state.model_loaded = True
